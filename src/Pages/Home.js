@@ -1,7 +1,7 @@
 import React from "react";
-import aboutMeImg from '../Assets/aboutMe.png'
-import portfolioImg from '../Assets/Portfolio.jpg'
-import contactImg from '../Assets/contactMe.jpg'
+import aboutMeImg from '../Assets/aboutMe.png';
+import portfolioImg from '../Assets/Portfolio.jpg';
+import contactImg from '../Assets/contactMe.jpg';
 
 function Home() {
     return(
@@ -18,7 +18,7 @@ function Home() {
         <main className="container">
             <section className="row">
                 <section className="col-xl-4 col-lg-4 col-sm-2 col-md-3"></section>
-                <a href="aboutme.html" className="cardLink col-xl-4 col-lg-4 col-sm-8 col-md-6">
+                <a href={"/aboutMe"} className="cardLink col-xl-4 col-lg-4 col-sm-8 col-md-6">
                     <section className="col-sm-4">
                         <section className="card align-item-center aboutCard" style={{width: "18rem"}}>
                             <img src={aboutMeImg} className="card-img-top" alt="About Me" />
@@ -34,7 +34,7 @@ function Home() {
 
             <section className="row">
                 <section className="col-xl-4 col-lg-4 col-sm-2 col-md-3"></section>
-                <a href="portfolio.html" className="cardLink col-xl-4 col-lg-4 col-sm-8 col-md-6">
+                <a href={"/portfolio"} className="cardLink col-xl-4 col-lg-4 col-sm-8 col-md-6">
                     <section className="col-sm-4">
                         <section className="card" style={{width: "18rem"}}>
                             <img src={portfolioImg} className="card-img-top  justify-content-center" alt="Portfolio" />
@@ -50,7 +50,7 @@ function Home() {
 
             <section className="row">
                 <section className="col-xl-4 col-lg-4 col-sm-2 col-md-3"></section>
-                <a href="contact.html" className="cardLink col-xl-4 col-lg-4 col-sm-8 col-md-6">
+                <a href={"/contact"} className="cardLink col-xl-4 col-lg-4 col-sm-8 col-md-6">
                     <section className="col-sm-4">
                         <section className="card" style={{width: "18rem"}}>
                             <img src={contactImg} className="card-img-top" alt="Contact Me" />
