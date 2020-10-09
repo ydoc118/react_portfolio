@@ -43,7 +43,7 @@ nav.navbar {
     width: 100%;
 }
 
-section.card {
+section.card, div.card{
     margin-bottom: 100px;
     text-align: center;
     font-family: 'Lexend Tera', sans-serif;
@@ -54,12 +54,15 @@ section.card {
     margin-bottom: 100px;
     height: 250px;
 }
+section.contactCardBottom {
+    margin-bottom: 10%;
+}
 
-.aboutMeCard, .contactCardBottom, .portfolioBottomCards {
+.aboutMeCard, .portfolioBottomCards {
     margin-bottom: 20%;
 }
 
-.contactCard {
+section.contactCard {
     right: 15px;
 }
 

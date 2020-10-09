@@ -4,7 +4,7 @@ import React from 'react';
 function Nav() {
     return(
         <nav className="navbar codyNavFont">
-            <a className="navbar-brand" href="index.html">
+            <a className="navbar-brand" href="/">
                 
                 Cody Blankenship
             </a>
