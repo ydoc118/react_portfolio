@@ -99,26 +99,3 @@ footer.stickyFooter {
     margin-bottom: 100px;
 }
 
-#card-1 {
-    background-image: url(./Assets/project-pic.png);
-}
-
-#card-2 {
-    background-image: url(./Assets/scheduler-pic.png);
-}
-
-#card-3 {
-    background-image: url(./Assets/Weather-pic.png);
-}
-
-#card-4 {
-    background-image: url(./Assets/password-pic.png);
-}
-
-#card-5 {
-    background-image: url(./Assets/week13img.png);
-}
-
-#card-6 {
-    background-image: url(./Assets/voteApp.png);
-}

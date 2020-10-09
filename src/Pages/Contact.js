@@ -5,51 +5,51 @@ function Contact() {
     return(
         <div>
             <header>
-            <figure class="jumbotron jumbotron-fluid contactJumbo">
-                <div class="container headerBackground">
-                <h1 class="display-4">Contact Me</h1>
-                <p class="lead">Email me or follow me on LinkedIn</p>
+            <figure className="jumbotron jumbotron-fluid contactJumbo">
+                <div className="container headerBackground">
+                <h1 className="display-4">Contact Me</h1>
+                <p className="lead">Email me or follow me on LinkedIn</p>
                 </div>
             </figure>
         </header>
 
-        <main class= "container">
+        <main className= "container">
 
-            <h1 class="portfolioHead">Links to Social Media</h1>
+            <h1 className="portfolioHead">Links to Social Media</h1>
 
-            <section class="row">
-                <section class="col-sm-3"></section>
-                <section class="col-sm-6 contactCard">
-                  <div class="card">
-                    <div class="card-body linkedInBackground">
-                      <h5 class="card-title">LinkedIn</h5>
-                      <p class="card-text">Follow me on LinkedIn</p>
-                      <a href="https://www.linkedin.com/in/codyericblankenship/" rel="noopener noreferrer" target="_blank" class="btn btn-primary">Click Here</a>
+            <section className="row">
+                <section className="col-sm-3"></section>
+                <section className="col-sm-6 contactCard">
+                  <div className="card">
+                    <div className="card-body linkedInBackground">
+                      <h5 className="card-title">LinkedIn</h5>
+                      <p className="card-text">Follow me on LinkedIn</p>
+                      <a href="https://www.linkedin.com/in/codyericblankenship/" rel="noopener noreferrer" target="_blank" className="btn btn-primary">Click Here</a>
                     </div>
                   </div>
                 </section>
             </section>
 
-            <section class="row">
-                <section class="col-sm-3"></section>
-                <section class="col-sm-6 contactCard">
-                  <div class="card">
-                    <div class="card-body">
-                      <h5 class="card-title">Email</h5>
-                      <p class="card-text">Email me with any questions or comments you may have at:</p>
-                      <p class="card-text">Cody.Eric.Blankenship@gmail.com</p>
+            <section className="row">
+                <section className="col-sm-3"></section>
+                <section className="col-sm-6 contactCard">
+                  <div className="card">
+                    <div className="card-body">
+                      <h5 className="card-title">Email</h5>
+                      <p className="card-text">Email me with any questions or comments you may have at:</p>
+                      <p className="card-text">Cody.Eric.Blankenship@gmail.com</p>
                     </div>
                   </div>
                 </section>
             </section>
 
-            <section class="row">
-              <section class="col-sm-3"></section>
-                <section class="col-sm-6 contactCard contactCardBottom">
-                    <div class="card">
-                    <div class="card-body linkedInBackground">
-                        <h5 class="card-title">My Resume</h5>
-                        <p class="card-text">Download my resume here:</p>
+            <section className="row">
+              <section className="col-sm-3"></section>
+                <section className="col-sm-6 contactCard contactCardBottom">
+                    <div className="card">
+                    <div className="card-body linkedInBackground">
+                        <h5 className="card-title">My Resume</h5>
+                        <p className="card-text">Download my resume here:</p>
                         <a href={Resume} download="Cody_Blankenship_Resume">Cody Blankenship Resume</a>
                     </div>
                     </div>
