@@ -15,7 +15,7 @@ function App() {
     <Router>
       <div className="App">
         <Nav />
-        <Route exact path="/" component={Home} />
+        <Route exact path="/react_portfolio" component={Home} />
         <Route exact path="/aboutMe" component={AboutMe} />
         <Route exact path="/portfolio" component={Portfolio}  />
         <Route exact path="/contact" component={Contact} />
