@@ -18,10 +18,10 @@ function Home() {
             <main className="container">
                 <section className="row">
                     <section className="col-xl-4 col-lg-4 col-sm-2 col-md-3"></section>
-                    <a href={"/aboutMe"} className="cardLink col-xl-4 col-lg-4 col-sm-8 col-md-6">
+                    <a href={ "/aboutMe" } className="cardLink col-xl-4 col-lg-4 col-sm-8 col-md-6">
                         <section className="col-sm-4">
-                            <section className="card align-item-center aboutCard" style={{width: "18rem"}}>
-                                <img src={aboutMeImg} className="card-img-top" alt="About Me" />
+                            <section className="card align-item-center aboutCard" style={{ width: "18rem" }}>
+                                <img src={ aboutMeImg } className="card-img-top" alt="About Me" />
                                 <div className="card-body">
                                 <p className="card-text">Me in 30 seconds</p>
                                 </div>
@@ -34,10 +34,10 @@ function Home() {
 
                 <section className="row">
                     <section className="col-xl-4 col-lg-4 col-sm-2 col-md-3"></section>
-                    <a href={"/portfolio"} className="cardLink col-xl-4 col-lg-4 col-sm-8 col-md-6">
+                    <a href={ "/portfolio" } className="cardLink col-xl-4 col-lg-4 col-sm-8 col-md-6">
                         <section className="col-sm-4">
-                            <section className="card" style={{width: "18rem"}}>
-                                <img src={portfolioImg} className="card-img-top  justify-content-center" alt="Portfolio" />
+                            <section className="card" style={{ width: "18rem" }}>
+                                <img src={ portfolioImg } className="card-img-top  justify-content-center" alt="Portfolio" />
                                 <div className="card-body  justify-content-center">
                                 <p className="card-text  justify-content-center">Explore my projects</p>
                                 </div>
@@ -50,10 +50,10 @@ function Home() {
 
                 <section className="row">
                     <section className="col-xl-4 col-lg-4 col-sm-2 col-md-3"></section>
-                    <a href={"/contact"} className="cardLink col-xl-4 col-lg-4 col-sm-8 col-md-6">
+                    <a href={ "/contact" } className="cardLink col-xl-4 col-lg-4 col-sm-8 col-md-6">
                         <section className="col-sm-4">
-                            <section className="card" style={{width: "18rem"}}>
-                                <img src={contactImg} className="card-img-top" alt="Contact Me" />
+                            <section className="card" style={{ width: "18rem" }}>
+                                <img src={ contactImg } className="card-img-top" alt="Contact Me" />
                                 <div className="card-body">
                                 <p className="card-text">Contact me</p>
                                 </div>

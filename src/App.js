@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Nav from './Components/Nav'
 import Footer from './Components/Footer'
 import Home from './Pages/Home'
@@ -12,7 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename={ process.env.PUBLIC_URL }>
       <div className="App">
         <Nav />
         <Route exact path="/aboutMe" component={AboutMe} />
@@ -21,6 +21,12 @@ function App() {
         <Route path="/" component={Home} />
         <Footer />
       </div>
+      <Switch>
+        <Route exact path="/aboutMe" exact render={() => <AboutMe />} />
+        <Route exact path="/portfolio" exact render={() => <Portfolio />} />
+        <Route exact path="/contact" exact render={() => <Contact />} />
+        <Route path="/" exact render={() => <Home />} />
+      </Switch>
     </Router>
   );
 }

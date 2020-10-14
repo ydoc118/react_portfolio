@@ -67,7 +67,7 @@ function Portfolio() {
             <section className="row">
                 { portfolioLinks.map(({ title, description, repo, app, image }, index) => 
                     <section className="col-sm-6 portfolioCard">
-                        <a href={ app } rel="noopener noreferrer" target="_blank" id="card-1" className="card mb-3" style={{width: "540px", backgroundImage: "url(" + image + ")"}}>
+                        <a href={ app } rel="noopener noreferrer" target="_blank" id="card-1" className="card mb-3" style={{ width: "540px", backgroundImage: "url(" + image + ")" }}>
                         
                             <div className="row no-gutters">
                                 <div className="col-md-8">

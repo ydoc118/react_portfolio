@@ -16,7 +16,7 @@ function AboutMe() {
             <main className= "container">
                 <section className="row">
                     <section className="col-sm-12 aboutMeCard">
-                        <section className="card mb-3" style={{width: "1000px"}}>
+                        <section className="card mb-3" style={ {width: "1000px" }}>
                             <div className="row">
                                 <div className="col-12">
                                     <h5 className="card-title">About Me</h5>
@@ -24,7 +24,7 @@ function AboutMe() {
                             </div>
                             <div className="row no-gutters">
                                 <div className="col-md-4">
-                                    <img src={Cody} className="card-img" alt="Me" />
+                                    <img src={ Cody } className="card-img" alt="Me" />
                                 </div>
                                 <div className="col-md-8">
                                     <div className="card-body">
