@@ -15,9 +15,9 @@ function App() {
     <Router basename={ process.env.PUBLIC_URL }>
       <div className="App">
         <Nav />
-        <Route exact path={ process.env.PUBLIC_URL + "/aboutMe" } component={AboutMe} />
-        <Route exact path={ process.env.PUBLIC_URL + "/portfolio" } component={Portfolio}  />
-        <Route exact path={ process.env.PUBLIC_URL + "/contact" } component={Contact} />
+        <Route path="/aboutMe" component={AboutMe} />
+        <Route path="/portfolio" component={Portfolio}  />
+        <Route path="/contact" component={Contact} />
         <Route path="/" component={Home} />
         <Footer />
       </div>
