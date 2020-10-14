@@ -12,13 +12,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   
   return (
-    <Router basename={ process.env.PUBLIC_URL }>
+    <Router basename={ "/react_portfolio" }>
       <div className="App">
         <Nav />
-        <Route path="/aboutMe" component={AboutMe} />
-        <Route path="/portfolio" component={Portfolio}  />
-        <Route path="/contact" component={Contact} />
-        <Route path="/" component={Home} />
+        <Route exact path="/aboutMe" component={AboutMe} />
+        <Route exact path="/portfolio" component={Portfolio}  />
+        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/" component={Home} />
         <Footer />
       </div>
     </Router>
