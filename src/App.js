@@ -15,14 +15,12 @@ function App() {
     <Router basename={ process.env.PUBLIC_URL }>
       <div className="App">
         <Nav />
+        <Route exact path={ process.env.PUBLIC_URL + "/aboutMe" } component={AboutMe} />
+        <Route exact path={ process.env.PUBLIC_URL + "/portfolio" } component={Portfolio}  />
+        <Route exact path={ process.env.PUBLIC_URL + "/contact" } component={Contact} />
+        <Route path="/" component={Home} />
         <Footer />
       </div>
-      <Switch>
-        <Route exact path="/aboutMe" exact render={() => <AboutMe />} />
-        <Route exact path="/portfolio" exact render={() => <Portfolio />} />
-        <Route exact path="/contact" exact render={() => <Contact />} />
-        <Route path="/" exact render={() => <Home />} />
-      </Switch>
     </Router>
   );
 }
