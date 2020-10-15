@@ -12,7 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   
   return (
-    <Router basename={ "/react_portfolio" }>
+    <Router basename="/">
       <div className="App">
         <Nav />
         <Route exact path="/" component={Home} />
