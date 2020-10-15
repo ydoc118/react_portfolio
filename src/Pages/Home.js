@@ -9,7 +9,7 @@ function Home() {
             <header>
                 <figure className="jumbotron jumbotron-fluid homeJumbo">
                     <div className="container">
-                    <h1 className="display-4">Cody Blankenship</h1>
+                    <h1 className="display-4">Blankenship</h1>
                     <p className="lead">Welcome to my Professional Portfolio</p>
                     </div>
                 </figure>
