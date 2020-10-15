@@ -1,25 +1,26 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 function Nav() {
     return(
         <nav className="navbar codyNavFont">
-            <a className="navbar-brand" href="/react_portfolio">
+            <Link className="navbar-brand" to="/">
                 
                 Cody Blankenship
-            </a>
+            </Link>
             <ul className="nav justify-content-end ">
                 <li className="nav-item">
-                <a className="nav-link active" href="/react_portfolio">Home</a>
+                <Link className="nav-link active" to="/">Home</Link>
                 </li>
                 <li className="nav-item">
-                <a className="nav-link" href="/aboutMe">About Me</a>
+                <Link className="nav-link" to="/aboutMe">About Me</Link>
                 </li>
                 <li className="nav-item">
-                <a className="nav-link" href="/portfolio">Portfolio</a>
+                <Link className="nav-link" to="/portfolio">Portfolio</Link>
                 </li>
                 <li className="nav-item">
-                <a className="nav-link" href="/contact">Contact Me</a>
+                <Link className="nav-link" to="/contact">Contact Me</Link>
                 </li>
             </ul>
 
