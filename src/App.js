@@ -16,7 +16,7 @@ function App() {
       <div className="App">
         <Nav />
         <Route exact path="/" component={Home} />
-        <Route path={ process.env.PUBLIC_URL + "/aboutMe"} component={AboutMe} />
+        <Route exact path="/aboutMe" component={AboutMe} />
         <Route path="/portfolio" component={Portfolio}  />
         <Route path="/contact" component={Contact} />
         <Footer />
