@@ -12,11 +12,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   
   return (
-    <Router basename="/">
+    <Router basename={ process.env.PUBLIC_URL }>
       <div className="App">
         <Nav />
         <Route exact path="/" component={Home} />
-        <Route path="/aboutMe" component={AboutMe} />
+        <Route path={ process.env.PUBLIC_URL + "/aboutMe"} component={AboutMe} />
         <Route path="/portfolio" component={Portfolio}  />
         <Route path="/contact" component={Contact} />
         <Footer />
